@@ -1,0 +1,80 @@
+/* AboutMe.css */
+
+/* Ensure font consistency */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.about-me {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    max-width: 800px;
+    margin: 50px auto;
+    border: 3px solid #fff;
+}
+
+.header {
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Add text shadow for eye pop */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.about-me h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.about-me p {
+    color: #333;
+    line-height: 1.8;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.image-gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.image-gallery img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.15) rotate(5deg);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.contact-info {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #ffd700; /* Gold color for links */
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
